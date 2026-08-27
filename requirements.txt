@@ -1,0 +1,4 @@
+# Standard library only. psutil is needed ONLY for `cli.py --real`, which
+# watches this machine read-only; every test, benchmark and scenario runs
+# against SimulatedSystem without it.
+psutil>=5.9

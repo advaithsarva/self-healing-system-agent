@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+_*.py
+incidents.json
+*.json
+
+# Local-only notes (workflow phase 7)
+observe.md
+CLAUDE.md
